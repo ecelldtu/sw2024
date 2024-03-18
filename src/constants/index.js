@@ -133,16 +133,18 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "",
+    text: "E-Cell DTU, for the past 12 years has been advocating the spirit of being a ‘CREATOR’ by providing the students the right guidance and mentorship from venture capitalists, angel investors, and top industrialists and striving to create an entrepreneurial ecosystem.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "",
+    text: "We attempt to foster new values amongst young individuals to make them an exemplary engineer imbibed with the idea of productive, innovative and independent thinking. We aim to create a 'CHANGE' with out of the box ideas and training individuals to make them the creators of this change.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "",
+    text: "Startup weekend is the place where budding entrepreneurs share their platform with like-minded people with one common goal - to launch a start-up in 54 hours. Startup Weekend resuscitates with the participants full of vigor and their exciting new ideas which they pitch in front of an esteemed panel of judges",
   },
 ];
 
@@ -244,16 +246,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Networking",
+    text: "Startup Weekend is a great way to expand your network, know people, their ambitions, plans, ideas, and interests.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "New People",
+    text: "Being around like-minded individuals, hearing their ideas, approaches, and prototypes will inspire and instill passion.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +263,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Great Speakers",
+    text: "Listen to brilliant minds and top-notch industrialists who provide expertise and offer one-on-one mentorship.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Have Fun",
+    text: "Experience the highs and lows of entrepreneurship, brainstorm ideas, unleash creativity, and simply have fun!",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,21 +280,22 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Collaboration Opportunities",
+    text: "Discover potential collaborators and team members who share your passion and vision. Collaborating brings fresh perspectives and skills.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Feedback and Validation",
+    text: "Receive valuable feedback from mentors and participants, refine ideas, validate concepts. Constructive criticism guides decisions and improvements.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
+
 
 export const socials = [
   {
