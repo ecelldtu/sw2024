@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
-import Roadmap from "./components/Roadmap";
+import Timeline from "./components/Timeline";
 import Services from "./components/Services";
 
 const App = () => {
@@ -16,9 +16,9 @@ const App = () => {
         <Hero />
         <Collaboration />
         <Benefits />
-        <Services />
-        <Pricing />
-        <Roadmap />
+        {/* <Services /> */}
+        {/* <Pricing /> */}
+        <Timeline />
         <Footer />
       </div>
 
