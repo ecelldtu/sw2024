@@ -92,6 +92,7 @@ export const roadmap = [
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "6 April, 2024",
     status: "progress",
+    colorful: true,
   },
   {
     id: "2",
@@ -99,6 +100,7 @@ export const roadmap = [
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
     date: "7 April, 2024",
     status: "done",
+    colorful: true,
   },
 ];
 
@@ -185,35 +187,30 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Individual",
+    description: "Solo thrill? Our ticket's your deal!",
+    price: "500",
+    cancel: "",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Networking Opportunities",
+      "Food Catering Services",
+      "Accommodation Facilities",
+      "Event Program and Guide",
+      "Security and Safety Measures",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Team",
+    description: "Team up, buy 5, 1's on us!",
+    price: "2500",
+    cancel: "₹3000",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Networking Opportunities",
+      "Food Catering Services",
+      "Accommodation Facilities",
+      "Event Program and Guide",
+      "Security and Safety Measures",
     ],
   },
 ];
