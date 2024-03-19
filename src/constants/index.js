@@ -25,7 +25,6 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
 
 export const navigation = [
@@ -37,7 +36,7 @@ export const navigation = [
   {
     id: "1",
     title: "Benefits",
-    url: "#benefits",
+    url: "#benefits2",
   },
   {
     id: "2",
@@ -47,7 +46,7 @@ export const navigation = [
   {
     id: "3",
     title: "timeline",
-    url: "#roadmap",
+    url: "#timeline",
   },
   {
     id: "4",
@@ -55,12 +54,14 @@ export const navigation = [
     url: "#tickets",
   },
 ];
+import google from "/logo3.png"
+import techstars from "/logo2.png"
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [google, techstars];
 
 export const brainwaveServices = [
   "Photo generating",

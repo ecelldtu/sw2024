@@ -1,12 +1,10 @@
-// import { brainwaveSymbol } from "../assets";
 import { collabContent } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-// import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
+    <Section id="about" crosses>
       <div className="container lg:flex">
         <div className="max-w-[36rem]">
           <h2 className="h2 mb-4 md:mb-8">
@@ -21,7 +19,7 @@ const Collaboration = () => {
                   {/* <h6 className="body-2 ml-5">{item.title}</h6> */}
                 </div>
                 {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                  <p className="body-2 mt-3 text-n-3">{item.text}</p>
                 )}
               </li>
             ))}

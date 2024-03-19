@@ -5,7 +5,7 @@ import { roadmap } from "../constants";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden" id="timeline">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="Timeline" />
 
