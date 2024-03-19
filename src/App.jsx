@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Timeline from "./components/Timeline";
-import Services from "./components/Services";
+import Services from "./components/Speakers";
+import Count from "./components/Count/Count"
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
         <Hero />
         <Collaboration />
         <Benefits />
-        {/* <Services /> */}
-        {/* <Pricing /> */}
+        <Services />
         <Timeline />
+        <Count />
+        <Pricing />
         <Footer />
       </div>
 
