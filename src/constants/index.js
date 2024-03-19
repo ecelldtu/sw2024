@@ -92,6 +92,7 @@ export const roadmap = [
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "6 April, 2024",
     status: "progress",
+    colorful: true,
   },
   {
     id: "2",
@@ -99,6 +100,7 @@ export const roadmap = [
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
     date: "7 April, 2024",
     status: "done",
+    colorful: true,
   },
 ];
 
