@@ -18,7 +18,7 @@ function DetailsSection({ title, content }) {
             <motion.details ref={ref}
                 animate={controls}
                 initial="hidden"
-                transition={{ duration: 1 }}
+                transition={{ duration: 0.1 }}
                 variants={{
                     visible: { opacity: 1, y: 0 },
                     hidden: { opacity: 0, y: 100 },

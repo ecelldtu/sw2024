@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
 import Timeline from "./components/Timeline";
 import Services from "./components/Speakers";
 import Count from "./components/Count/Count"
@@ -23,6 +24,7 @@ const App = () => {
         <Count />
         <Pricing />
         <Faq />
+        <Contact />
         <Footer />
       </div>
 

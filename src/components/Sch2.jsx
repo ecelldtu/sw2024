@@ -50,12 +50,12 @@ export default function Extra() {
                     content="Engage with seasoned mentors who carefully analyze team ideas, providing invaluable 'Success Mantras' and insights on navigating business competition. With their guidance, teams are equipped to soar to the top of their game."
                 />
                 <DetailsSection
-                    title="Hustle and Execution"
+                    title="Hustle"
                     content="Embrace the hustle as teams fervently work to turn dreams into reality. Through relentless brainstorming, they explore various ideas, approaches, and techniques to secure the top position. Then, it's time for execution—presenting innovative ideas to captivate audiences, mentors, and judges, transforming plans into impactful action."
                 />
                 <DetailsSection
-                    title="What are the benefits of Fractional Ownership?"
-                    content="Bigain offers access to high-value properties and allows you to diversify your investments across multiple assets, minimizing risk. Benefit from liquidity as you can easily buy and sell units through Bigain's platform. Enjoy passive income with regular rental returns, all while avoiding the hassle of property management. Seize potential capital appreciation as your investments stand to gain from increases in property values over time."
+                    title="Execution"
+                    content="All that glitters is not gold but all that glitters often catch the eye and remain in the sub-conscience for a long time. The next step is to present the ideas in an innovative manner so as to catch the attention of the audience, mentors, and judges. The plan begins transforming into action."
                 />
             </div>
         </div>
