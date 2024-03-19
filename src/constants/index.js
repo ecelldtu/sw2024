@@ -1,8 +1,4 @@
 import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
   benefitImage2,
   chromecast,
   disc02,
@@ -35,35 +31,28 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "About Us",
+    url: "#about",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Benefits",
+    url: "#benefits",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Speakers",
+    url: "#speakers",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "timeline",
     url: "#roadmap",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    title: "Tickets",
+    url: "#tickets",
   },
 ];
 
@@ -234,7 +223,6 @@ export const benefits = [
     title: "Networking",
     text: "Startup Weekend is a great way to expand your network, know people, their ambitions, plans, ideas, and interests.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
@@ -242,7 +230,6 @@ export const benefits = [
     title: "New People",
     text: "Being around like-minded individuals, hearing their ideas, approaches, and prototypes will inspire and instill passion.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -251,7 +238,6 @@ export const benefits = [
     title: "Great Speakers",
     text: "Listen to brilliant minds and top-notch industrialists who provide expertise and offer one-on-one mentorship.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
@@ -259,7 +245,6 @@ export const benefits = [
     title: "Have Fun",
     text: "Experience the highs and lows of entrepreneurship, brainstorm ideas, unleash creativity, and simply have fun!",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -268,7 +253,6 @@ export const benefits = [
     title: "Collaboration Opportunities",
     text: "Discover potential collaborators and team members who share your passion and vision. Collaborating brings fresh perspectives and skills.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
@@ -276,7 +260,6 @@ export const benefits = [
     title: "Feedback and Validation",
     text: "Receive valuable feedback from mentors and participants, refine ideas, validate concepts. Constructive criticism guides decisions and improvements.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
