@@ -46,15 +46,15 @@ const ForgotPasswordForm = () => {
                     <div className="flex flex-row w-full items-center pt-10 mx-auto justify-center bg-none rounded-xl md:rounded-l-lg md:rounded-none relative z-10">
                         <div className="w-screen relative flex flex-col md:flex-row justify-around">
                             <div className="relative my-8 mx-4">
-                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-violet-500 font-semibold font-CyberGraph absolute -top-4">Name</p>
+                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-white font-semibold font-CyberGraph absolute -top-4">Name</p>
                                 <input name="from_name" placeholder="" type="text" className="border focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white/10 border-gray-300 rounded-md" />
                             </div>
                             <div className="relative my-8 mx-4">
-                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-violet-500 font-semibold font-CyberGraph absolute -top-4">Email</p>
+                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-white font-semibold font-CyberGraph absolute -top-4">Email</p>
                                 <input name="user_email" placeholder="" type="text" className="border focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white/10 border-gray-300 rounded-md" />
                             </div>
                             <div className="relative my-8 mx-4">
-                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-violet-500 font-semibold font-CyberGraph absolute -top-4">Query</p>
+                                <p className="pt-0 text-xl pr-2 pb-4 pl-2 -mt-3 mr-0 mb-0 ml-2 text-white font-semibold font-CyberGraph absolute -top-4">Query</p>
                                 <input name="message" placeholder="" type="word" className="border focus:outline-none focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white/10 border-gray-300 rounded-md" />
                             </div>
                             <div className="relative my-8 mx-4">
