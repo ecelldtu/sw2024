@@ -6,7 +6,7 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="benefits2">
       <div className="container relative z-2">
         <Heading
           className="text-center"
