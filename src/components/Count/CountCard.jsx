@@ -18,7 +18,7 @@ const CountCard = (props) => {
         enableScrollSpy={true}
         scrollSpyDelay={10}
       />
-      <h1 className="text-xl -my-4 md:-my-2 font-semibold md:text-2xl text-violet-400 font-code">{props.countCard.title}</h1>
+      <h1 className="text-xl text-center -my-4 md:-my-2 font-semibold md:text-2xl text-violet-400 font-code">{props.countCard.title}</h1>
     </div>
   );
 };
