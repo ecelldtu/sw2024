@@ -11,7 +11,7 @@ const Services = () => {
   ];
 
   return (
-    <Section id="how-to-use">
+    <Section id="speakers">
       <div className="container">
         <Heading title="Past Mentors & Judges" />
         <div className="relative">

@@ -25,7 +25,6 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
 
 export const navigation = [
@@ -37,7 +36,7 @@ export const navigation = [
   {
     id: "1",
     title: "Benefits",
-    url: "#benefits",
+    url: "#benefits2",
   },
   {
     id: "2",
@@ -47,7 +46,7 @@ export const navigation = [
   {
     id: "3",
     title: "timeline",
-    url: "#roadmap",
+    url: "#timeline",
   },
   {
     id: "4",
@@ -55,12 +54,14 @@ export const navigation = [
     url: "#tickets",
   },
 ];
+import google from "/logo3.png"
+import techstars from "/logo2.png"
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [google, techstars];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -222,14 +223,14 @@ export const benefits = [
     id: "0",
     title: "Networking",
     text: "Startup Weekend is a great way to expand your network, know people, their ambitions, plans, ideas, and interests.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/benefits/card-1.png",
     imageUrl: benefitImage2,
   },
   {
     id: "1",
     title: "New People",
     text: "Being around like-minded individuals, hearing their ideas, approaches, and prototypes will inspire and instill passion.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: "./src/assets/benefits/card-2.png",
     imageUrl: benefitImage2,
     light: true,
   },
@@ -237,14 +238,14 @@ export const benefits = [
     id: "2",
     title: "Great Speakers",
     text: "Listen to brilliant minds and top-notch industrialists who provide expertise and offer one-on-one mentorship.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "./src/assets/benefits/card-3.png",
     imageUrl: benefitImage2,
   },
   {
     id: "3",
     title: "Have Fun",
     text: "Experience the highs and lows of entrepreneurship, brainstorm ideas, unleash creativity, and simply have fun!",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: "./src/assets/benefits/card-4.png",
     imageUrl: benefitImage2,
     light: true,
   },
@@ -252,14 +253,14 @@ export const benefits = [
     id: "4",
     title: "Collaboration Opportunities",
     text: "Discover potential collaborators and team members who share your passion and vision. Collaborating brings fresh perspectives and skills.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: "./src/assets/benefits/card-5.png",
     imageUrl: benefitImage2,
   },
   {
     id: "5",
     title: "Feedback and Validation",
     text: "Receive valuable feedback from mentors and participants, refine ideas, validate concepts. Constructive criticism guides decisions and improvements.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/benefits/card-6.png",
     imageUrl: benefitImage2,
   },
 ];

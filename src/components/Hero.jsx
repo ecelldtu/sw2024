@@ -21,22 +21,22 @@ const Hero = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
-            North India&apos;s Biggest Startup Event
+        <div className="relative z-1 max-w-[80rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+          <h1 className="text-3xl md:h1 mb-6">
+            North India&apos;s Biggest Entrepreneurship Meet
             {` `}
             <span className="inline-block relative">
               Startup Weekend{" "}
               <img
                 src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
+                className="absolute top-full left-0 w-full"
                 width={624}
                 height={28}
                 alt="Curve"
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto my-6 text-n-2 lg:my-8">
+          <p className="body-1 max-w-3xl mx-auto my-6 md:text-2xl text-n-2 lg:my-8">
             Organized by E-Cell DTU | 5th to 7th April, 2024
           </p>
           <Button href="/pricing" white>
