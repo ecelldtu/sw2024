@@ -20,10 +20,10 @@ const PricingList = () => {
             {item.price && (
               <>
                 <div className="h3">₹</div>
-                <div className="text-[5.5rem] leading-none font-bold">
+                <div className="text-7xl leading-none font-bold">
                   {item.price}
                 </div>
-                <p className="line-through text-3xl mx-4 mt-8 opacity-80">{item.cancel}</p>
+                <p className="line-through text-lg md:text-3xl mx-4 mt-8 opacity-80">{item.cancel}</p>
               </>
             )}
           </div>
