@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Timeline from "./components/Timeline";
 import Services from "./components/Speakers";
 import Count from "./components/Count/Count"
+import Faq from "./components/FAQ"
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Timeline />
         <Count />
         <Pricing />
+        <Faq />
         <Footer />
       </div>
 
