@@ -4,7 +4,6 @@ import Tagline from "./Tagline";
 import { roadmap } from "../constants";
 import { Gradient } from "./design/Roadmap";
 
-// Import your day1, day2, and day3 components
 import Day1 from "./Sch1";
 import Day2 from "./Sch2";
 import Day3 from "./Sch3";
