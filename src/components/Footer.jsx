@@ -4,8 +4,8 @@ import insta from "/insta.png"
 import ln from "/ln.png"
 
 const Footer = () => {
-    return <div className="mx-12 w-full">
-        <footer className="bg-[#1f1f1f] w-full px-12">
+    return <div className="w-full">
+        <footer className="w-full">
             <div className="relative bottom-10 pt-28 md:pt-32 md:pb-1 text-white">
                 <div className="grid grid-cols-1 md:grid-cols-3 md:justify-start items-start content-start">
                     <div className="px-10 pb-4">
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
         </footer>
 
-        <div className="flex flex-col border-t-2 bg-violet-900/80 py-5 font-semibold px-10 md:text-lg md:pb-6 text-white md:items-center md:flex-row md:justify-between">
+        <div className="flex flex-col border-t-2 py-5 font-semibold px-10 md:text-lg md:pb-6 text-white md:items-center md:flex-row md:justify-between">
             <div className="">
                 © Copyright E-Cell DTU.
             </div>
