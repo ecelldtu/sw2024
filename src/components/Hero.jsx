@@ -37,7 +37,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto my-6 md:text-2xl text-n-2 lg:my-8">
-            Organized by E-Cell DTU | 5th to 7th April, 2024
+            Organized by E-Cell DTU | 19th to 21th April, 2024
           </p>
           <Button href="/pricing" white>
             Register Now
