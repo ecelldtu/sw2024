@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import logo from "/logo.png"
-// import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -35,7 +34,7 @@ const Header = () => {
         }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <a className="block w-[12rem] xl:mr-8" href="/">
           <img src={logo} width={100} height={40} alt="Brainwave" />
         </a>
 
@@ -62,7 +61,7 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834">
           Register Now
         </Button>
 

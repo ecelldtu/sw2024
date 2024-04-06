@@ -192,6 +192,7 @@ export const pricing = [
     price: "500",
     cancel: "",
     contact: true,
+    link: "https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834",
     features: [
       "Networking Opportunities",
       "Food Catering Services",
@@ -207,7 +208,9 @@ export const pricing = [
     price: "2500",
     cancel: "₹3000",
     contact: false,
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=rajshekharsingh_ee22b17_54@dtu.ac.in",
     features: [
+      "Exclusive Discounts",
       "Networking Opportunities",
       "Food Catering Services",
       "Accommodation Facilities",

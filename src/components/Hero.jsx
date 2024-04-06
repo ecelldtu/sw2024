@@ -39,7 +39,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto my-6 md:text-2xl text-n-2 lg:my-8">
             Organized by E-Cell DTU | 19th to 21th April, 2024
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834" white>
             Register Now
           </Button>
         </div>
