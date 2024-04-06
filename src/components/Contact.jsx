@@ -67,16 +67,16 @@ const ForgotPasswordForm = () => {
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-1/2 mx-12 md:mx-24">
                             <p className="mb-2 text-xl">
-                                Raj<br />
-                                Phone No. 9479032005<br />
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajshekharsingh_ee22b17_54@dtu.ac.in" className="text-blue-500">rajshekharsingh_ee22b17_54@dtu.ac.in</a>
+                                Sunny<br />
+                                Phone No. 95400 63404<br />
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sunny.ecelldtu@gmail.com" className="text-blue-500">sunny.ecelldtu@gmail.com</a>
                             </p>
                         </div>
                         <div className="md:w-1/2 mt-4 md:mt-0">
                             <p className="mb-2 text-xl mx-12 md:mx-24">
                                 Sehgal<br />
                                 Phone No. 70112 38356<br />
-                                {/* <a href="mailto:kapoorhimanshi097@gmail.com" className="text-blue-500">kapoorhimanshi097@gmail.com</a> */}
+                                <a href="mailto:satviksehgal4@gmail.com" className="text-blue-500">satviksehgal4@gmail.com</a>
                             </p>
                         </div>
                     </div>
