@@ -39,7 +39,7 @@ const ForgotPasswordForm = () => {
                 }}
                 className="md:mt-20 rounded-xl z-[500] mb-24">
                 <Heading
-                className="mx-12 mt-24 -mb-4 md:mx-auto"
+                    className="px-6 mt-24 -mb-4 md:mx-auto"
                     title="Contact Us"
                 />
                 <form ref={form} onSubmit={sendEmail} className="w-screen mx-auto -mt-2 relative scale-95 md:scale-100">
@@ -63,6 +63,24 @@ const ForgotPasswordForm = () => {
                         </div>
                     </div>
                 </form>
+                <div className="mt-4 mx-auto w-full text-start">
+                    <div className="flex flex-col md:flex-row">
+                        <div className="md:w-1/2 mx-12 md:mx-24">
+                            <p className="mb-2 text-xl">
+                                Raj<br />
+                                Phone No. 9479032005<br />
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajshekharsingh_ee22b17_54@dtu.ac.in" className="text-blue-500">rajshekharsingh_ee22b17_54@dtu.ac.in</a>
+                            </p>
+                        </div>
+                        {/* <div className="md:w-1/2 mt-4 md:mt-0">
+                            <p className="mb-2 text-xl mx-12 md:mx-24">
+                                Himanshi<br />
+                                .................................<br />
+                                <a href="mailto:kapoorhimanshi097@gmail.com" className="text-blue-500">kapoorhimanshi097@gmail.com</a>
+                            </p>
+                        </div> */}
+                    </div>
+                </div>
             </motion.div>
         </>
     );
