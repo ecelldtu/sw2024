@@ -76,7 +76,7 @@ const ForgotPasswordForm = () => {
                             <p className="mb-2 text-xl mx-12 md:mx-24">
                                 Sehgal<br />
                                 Phone No. 70112 38356<br />
-                                <a href="mailto:kapoorhimanshi097@gmail.com" className="text-blue-500">kapoorhimanshi097@gmail.com</a>
+                                {/* <a href="mailto:kapoorhimanshi097@gmail.com" className="text-blue-500">kapoorhimanshi097@gmail.com</a> */}
                             </p>
                         </div>
                     </div>
