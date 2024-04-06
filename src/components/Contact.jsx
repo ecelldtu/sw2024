@@ -68,14 +68,14 @@ const ForgotPasswordForm = () => {
                         <div className="md:w-1/2 mx-12 md:mx-24">
                             <p className="mb-2 text-xl">
                                 Sunny<br />
-                                Phone No. 95400 63404<br />
+                                Phone No. 95400 63404 <br />
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sunny.ecelldtu@gmail.com" className="text-blue-500">sunny.ecelldtu@gmail.com</a>
                             </p>
                         </div>
                         <div className="md:w-1/2 mt-4 md:mt-0">
                             <p className="mb-2 text-xl mx-12 md:mx-24">
                                 Sehgal<br />
-                                Phone No. 70112 38356<br />
+                                Phone No. 70112 38356 <br />
                                 <a href="mailto:satviksehgal4@gmail.com" className="text-blue-500">satviksehgal4@gmail.com</a>
                             </p>
                         </div>
