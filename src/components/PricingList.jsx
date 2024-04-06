@@ -30,10 +30,10 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.contact ? "/https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834" : "mailto:rajshekharsingh_ee22b17_54@dtu.ac.in"}
             white={!!item.price}
           >
-            {item.price ? "Register Now" : "Contact us"}
+            {item.contact ? "Register Now" : "Contact us"}
           </Button>
 
           <ul>

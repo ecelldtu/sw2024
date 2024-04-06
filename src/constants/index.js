@@ -191,6 +191,7 @@ export const pricing = [
     description: "Solo thrill? Our ticket's your deal!",
     price: "500",
     cancel: "",
+    contact: true,
     features: [
       "Networking Opportunities",
       "Food Catering Services",
@@ -205,6 +206,7 @@ export const pricing = [
     description: "Team up, buy 5, 1's on us!",
     price: "2500",
     cancel: "₹3000",
+    contact: false,
     features: [
       "Networking Opportunities",
       "Food Catering Services",
