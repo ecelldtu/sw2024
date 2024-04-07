@@ -38,6 +38,7 @@ const Pricing = () => {
           <RightLine />
         </div>
       </div>
+      <p className="mx-12 md:mx-24 mt-4 md:mt-0">NOTE: These are &quot;Early Bird Offers&quot; and are subjected to change</p>
     </Section>
   );
 };
