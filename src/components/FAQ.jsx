@@ -84,7 +84,7 @@ export default function Extra() {
 
                 <DetailsSection
                     title="Can I pitch my existing business?"
-                    content="No. Startup Weekend is designed to be the most effective platform for growing new ideas from the ground up over the course of a weekend. Complete collaboration, buy-in, and ownership are central values. Having existing businesses in the mix undermines this spirit and creates an imbalance."
+                    content="Yes, you can pitch your existing business but only if you have enough members (4-5) so that the all the teams can be judged in the limited time of the competition"
                 />
 
                 <DetailsSection
