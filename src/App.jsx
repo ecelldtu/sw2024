@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
+import As from "./components/As";
 import Timeline from "./components/Timeline";
 import Services from "./components/Speakers";
 import Sponsors from "./components/Sponsors";
@@ -19,6 +20,7 @@ const App = () => {
         <Header />
         <Hero />
         <Collaboration />
+        <As />
         <Sponsors />
         <Benefits />
         <Services />
