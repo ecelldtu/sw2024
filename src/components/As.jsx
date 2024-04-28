@@ -28,8 +28,8 @@ export default function Quotes() {
                 title="Associate Partners"
             />
             <div className="h-auto flex items-center w-screen my-8">
-                  <img alt="Polygon" src="/logo/9.png" width={300} height={300} className="h-32 my-2 w-32 object-contain mx-auto" />
-                  <img alt="Polygon" src="/logo/10.png" width={300} height={300} className="h-32 my-2 w-32 object-contain mx-auto" />
+                <a className='mx-auto' href="http://thekwcg.org"><img alt="Polygon" src="/logo/9.png" width={300} height={300} className="h-32 my-2 w-32 object-contain mx-auto" /></a>
+                <img alt="Polygon" src="/logo/10.png" width={300} height={300} className="h-32 my-2 w-32 object-contain mx-auto" />
             </div>
         </motion.div>
     );

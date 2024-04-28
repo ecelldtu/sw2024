@@ -9,7 +9,7 @@ const Services = () => {
     { title: "Vijay Shekhar Sharma", description: "Managing director of Paytm",url:"/vijay.jpg" },
     { title: "Alakh Pandey", description: "CEO of Physics Wallah",url:"/alakh.jpg" },
     { title: "Vinod Dham", description: "Founder of Pentinum Chip",url:"/vinod.jpeg" },
-    { title: "Bipin Kaul", description: "CBO of Paytm",url:"/bipin.jpg" },
+    { title: "Khalid Wani", description: "TedX Speaker",url:"/kha.jpg" },
   ];
 
   return (
