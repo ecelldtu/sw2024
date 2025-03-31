@@ -1,17 +1,16 @@
-import React from "react";
 import CountUp from "react-countup";
-import Image from "next/image"
+// import Image from "next/image"
 
 const CountCard = (props) => {
   return (
     <div className="flex flex-col justify-center items-center gap-8 px-2 w-full md:w-1/2 lg:w-full xl:w-2/3 py-4">
-      <div className="w-auto rounded-full bg-primary-orange flex items-center justify-center">
-        <Image width={160} height={160}
+      {/* <div className="w-auto rounded-full bg-primary-orange flex items-center justify-center">
+        <img width={160} height={160}
           src={props.countCard.image}
           alt="sig-pic"
           className="h-full aspect-square p-4"
         />
-      </div>
+      </div> */}
       <CountUp
         end={props.countCard.count}
         suffix=" +"

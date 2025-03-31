@@ -1,13 +1,12 @@
 import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, } from "./design/Hero";
-// import { heroIcons } from "../constants";
+import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-// import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -23,8 +22,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[80rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="text-3xl md:h1 mb-6">
-            North India&apos;s Biggest Entrepreneurship Meet
-            {` `}
+            North India&apos;s Biggest Entrepreneurship Meet{" "}
             <span className="inline-block relative">
               Startup Weekend{" "}
               <img
@@ -37,11 +35,12 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto my-6 md:text-2xl text-n-2 lg:my-8">
-            Organized by E-Cell DTU | 19th to 21th April, 2024
+            Organized by E-Cell DTU | 4th to 6th April, 2025
           </p>
-          <Button href="https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834" white>
-            Register Now
-          </Button>
+          {/* Wrap Button in Link for routing */}
+          <Link to="/register">
+            <Button white>Register Now</Button>
+          </Link>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

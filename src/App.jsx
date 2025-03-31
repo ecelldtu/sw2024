@@ -5,9 +5,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
-import Pop from "./components/Pop";
+// import Pop from "./components/Pop";
 import Contact from "./components/Contact";
-import As from "./components/As";
+// import As from "./components/As";
 import Timeline from "./components/Timeline";
 import Services from "./components/Speakers";
 import Sponsors from "./components/Sponsors";
@@ -20,9 +20,9 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Pop />
+        {/* <Pop /> */}
         <Collaboration />
-        <As />
+        {/* <As /> */}
         <Sponsors />
         <Benefits />
         <Services />
