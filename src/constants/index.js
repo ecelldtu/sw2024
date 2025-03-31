@@ -205,8 +205,8 @@ export const pricing = [
     id: "1",
     title: "Team",
     description: "Team up, buy 5, 1's on us!",
-    price: "3000",
-    cancel: "₹3600",
+    price: "2750",
+    cancel: "₹3300",
     contact: false,
     link: "https://mail.google.com/mail/?view=cm&fs=1&to=rajshekharsingh_ee22b17_54@dtu.ac.in",
     features: [
