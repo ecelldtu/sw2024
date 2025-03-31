@@ -192,7 +192,7 @@ export const pricing = [
     price: "550",
     cancel: "",
     contact: true,
-    link: "/Register",
+    link: "https://www.ecelldtu.in/sw",
     features: [
       "Networking Opportunities",
       "Food Catering Services",

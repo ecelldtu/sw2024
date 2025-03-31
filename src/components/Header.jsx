@@ -61,7 +61,7 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <Button className="hidden lg:flex" href="https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834">
+        <Button className="hidden lg:flex" href="https://www.ecelldtu.in/sw">
           Register Now
         </Button>
 

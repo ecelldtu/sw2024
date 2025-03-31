@@ -38,7 +38,7 @@ const Hero = () => {
             Organized by E-Cell DTU | 4th to 6th April, 2025
           </p>
           {/* Wrap Button in Link for routing */}
-          <Link to="/register">
+          <Link to="https://www.ecelldtu.in/sw">
             <Button white>Register Now</Button>
           </Link>
         </div>
