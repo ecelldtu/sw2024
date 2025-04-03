@@ -5,6 +5,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 
+export const metadata = {
+  title: 'Startup Weekend 2025 - Delhi', // Change this title
+  description: '',
+};
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
