@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="text-3xl md:h1 mb-6">
             North India&apos;s Biggest Entrepreneurship Meet{" "}
             <span className="inline-block relative">
-              Startup Weekend{" "}
+              Techstars Startup Weekend{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full"

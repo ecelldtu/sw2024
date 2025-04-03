@@ -13,8 +13,12 @@ import Services from "./components/Speakers";
 import Sponsors from "./components/Sponsors";
 import Count from "./components/Count/Count"
 import Faq from "./components/FAQ"
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Startup Weekend 2025 - Delhi"; // Set browser tab title
+  }, []);
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
