@@ -26,7 +26,7 @@ export default function Quotes() {
             }} className="my-12 md:my-24">
             <Heading
                 className="text-center"
-                title="Sponsors"
+                title="Global partners"
             />
             <div className="h-auto flex items-center w-screen my-8">
                 <Marquee className="py-2 flex gap-4 my-2" speed={180}>
