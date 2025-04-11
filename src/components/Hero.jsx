@@ -35,7 +35,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto my-6 md:text-2xl text-n-2 lg:my-8">
-            Organized by E-Cell DTU | 4th to 6th April, 2025
+            Organized by E-Cell DTU | 18th to 20th April, 2025
           </p>
           {/* Wrap Button in Link for routing */}
           <Link to="https://www.ecelldtu.in/sw">

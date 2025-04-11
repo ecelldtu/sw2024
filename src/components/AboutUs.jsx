@@ -25,7 +25,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button><a href="https://unstop.com/p/techstars-startup-weekend-2024-dtu-new-delhi-946834">Register Now</a></Button>
+          <Button><a href="https://www.ecelldtu.in/sw">Register Now</a></Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
